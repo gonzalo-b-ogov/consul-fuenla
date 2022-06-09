@@ -19,9 +19,11 @@
     </span>
 
     <h1 class="top-bar-title">
-    AA <%= link_to root_path, accesskey: "0" do %>
+    <div class="container-logo-header">
+    <%= link_to root_path, accesskey: "0" do %>
         <%= image_tag(image_path_for("logo_header.png"), alt: setting["org_name"]) %>
       <% end %>
+      </div>
     </h1>
 
     <div id="responsive-menu">
