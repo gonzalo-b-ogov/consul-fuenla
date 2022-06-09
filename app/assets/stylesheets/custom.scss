@@ -70,3 +70,35 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 .top-bar-right {
     margin-top: -40px;
 }
+.home-page .background-header {
+    background-image: url("https://www.ogovsystem.com/wp-content/uploads/2022/06/banner_cabeceraP-1-1.png");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    clip-path: ellipse(100% 80% at 60% 0%);
+    background-color: #e9ecef;
+    height: 350px;
+    
+    
+}
+.jumbo {
+    background-color: #e9ecef;
+  
+    
+}
+.highlight {
+    background: transparent ;
+ 
+}
+.jumbo.header-card {
+    background-color: #e9ecef;
+    
+   
+}
+.container-image-header {
+    margin-top: -20px;
+    max-width: 450px;
+}
+h1 {
+    font-weight: 500;
+}

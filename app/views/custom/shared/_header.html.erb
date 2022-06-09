@@ -14,14 +14,18 @@
         <% end %>
       </div>
 
+      
       <% if header.image.present? %>
         <div class="small-12 medium-6 column">
+        <div class="container-image-header">
           <%= image_tag(header.image.variant(:large),
                         class: "margin",
                         alt: header.image.title) %>
-        </div>
+        </div></div>
       <% end %>
     </div>
   </div>
   <div class="background-header"></div>
 <% end %>
+
+
