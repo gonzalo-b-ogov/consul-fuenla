@@ -83,15 +83,17 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 }
 .jumbo {
     background-color: #e9ecef;
-  
-    
+    margin-top: -1.6rem;  
 }
 .highlight {
     background: transparent ;
  
 }
 .jumbo.header-card {
-    background-color: #e9ecef;
+    background-color: transparent;
+    background-image: linear-gradient(360deg, #e9ecef 5%, #8293ae 99%);
+    height: 200px;
+    color: #fff;
     
    
 }
@@ -101,4 +103,8 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 }
 h1 {
     font-weight: 500;
+    font-family: 'muli-regular',sans-serif;
+}
+.header-title-container {
+    padding-bottom: 50px;
 }
