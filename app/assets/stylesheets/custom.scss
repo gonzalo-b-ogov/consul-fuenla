@@ -2,3 +2,20 @@
 //
 // You can also create SCSS files in the app/assets/stylesheets/custom/
 // folder and they will be loaded automatically.
+#navigation_bar {
+    background-image: linear-gradient(130deg , #004b84 30%, #004b84 60%);
+}
+.subnavigation a {
+    color:#fff;
+}
+.public > .wrapper > header .top-bar, .proposal-dashboard > header .top-bar {
+    color: #fdfdfd;
+    
+}
+.public > .wrapper > header .top-bar, .proposal-dashboard > header .top-bar ::before{
+    background-image: url(https://www.ogovsystem.com/wp-content/uploads/2022/06/skylineFuenla-h500-scaled.jpg);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-size: 100% 155px;
+    height: 135px;
+}
