@@ -218,3 +218,12 @@ header {
     box-shadow: 0px 0px 6px 0px #b3b3b3;
     text-align: center;
 }
+
+.in-favor-against .in-favor .voted {
+    background: #004b84;
+    border: 2px solid #9FCF71;
+}
+.in-favor-against .in-favor button:not([disabled]):hover, .in-favor-against .in-favor button:not([disabled]):active {
+    background: #9FCF71;
+    border: 2px solid #004b84;
+}
