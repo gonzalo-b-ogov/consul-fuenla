@@ -7,6 +7,7 @@ html, body {
     margin: 0;
         margin-right: 0px;
         margin-left: 0px;
+       
 
 }
 body {
@@ -16,6 +17,12 @@ body {
 }
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
     font-family: "Montserrat", Sans-serif !important;
+}
+.home-page h2.title {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.2rem;
+    padding-bottom: 40px;
 }
 #navigation_bar {
     background-color: #004b84;
@@ -70,31 +77,35 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 .top-bar-right {
     margin-top: -40px;
 }
+.subnavigation a.is-active {
+    color: #FFF;
+}
+/*HEADER HOME*/
 .home-page .background-header {
     background-image: url("https://www.ogovsystem.com/wp-content/uploads/2022/06/banner_cabeceraP-1-1.png");
-    height: 500px;
     background-repeat: no-repeat;
     background-size: contain;
-    clip-path: ellipse(100% 80% at 60% 0%);
-    background-color: #e9ecef;
-    height: 350px;
-    
-    
+    clip-path: none;
+    /*clip-path: ellipse(100% 80% at 50% 0%);*/
+    background-color: rgba(130, 147, 174, 0.3);
+    height: 240px; 
+    margin-top: -1.5rem; 
+    margin-bottom: 50px;
+   
 }
 .jumbo {
-    background-color: #e9ecef;
-    margin-top: -1.6rem;  
+    /* background-color: #e9ecef;*/
+    padding: 1rem 0;
+    margin-top: -1.6rem;
 }
 .highlight {
     background: transparent ;
  
 }
 .jumbo.header-card {
-    background-color: transparent;
-    background-image: linear-gradient(360deg, #e9ecef 10%, #8293ae 59%);
-    height: 200px;
-    color: #fff;
-    
+    /*background-color: transparent;*/
+    /* color: #fff;*/
+    background-color: #dee0e1ed;
    
 }
 .container-image-header {
@@ -106,5 +117,104 @@ h1 {
     font-family: 'muli-regular',sans-serif;
 }
 .header-title-container {
-    padding-bottom: 50px;
+    color: #333;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-variant: all-petite-caps;
+    
+}
+.home-page.public {
+    background-color: #fff;
+}
+#feed_proposals {
+    padding: 20px;
+}
+.home-page h2.title {
+    border-top: none;
+}
+/*FOOTER*/
+.footer {
+    background: #004b84;
+}
+.container-logo-footer {
+    max-width: 150px;
+    margin-left: 33%;
+    padding-bottom: 20px;
+}
+.text-footer {
+    text-align: center;
+    color: #fff;
+}
+.social a {
+    font-size: 1rem;
+    color: #fff;
+    padding: 5px;
+    border-radius: 10%;
+}
+.social a:hover {
+    color: #333;
+    background-color:#C4D3E2; 
+    padding: 5px;
+    border-radius: 10%;
+}
+.footer.secundario {
+    background: #333;
+    color: #fff;
+    margin-top: 0px;
+    height: 100px;
+    padding-top: 10px;
+}
+.subfooter.row.secundary {
+    border-top: none;
+}
+.logofooter2 {
+    max-width: 50px;
+}
+.subfooter.row.secundary {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.col-md-2.secundary {
+    padding-left: 40%;
+}
+.col-lg-5.secundary {
+    padding-left: 20%;
+}
+footer .logo {
+    color: #fff;
+}
+.description-footer {
+    color: #fff;
+}
+.home-page .card {
+    border: 1;
+    box-shadow: 0px 0px 6px 0px rgba(179, 179, 179, 9);
+    background-color: #fff;
+    padding-top: 20px;
+  
+}
+/*FEATURED*/
+.featured-proposals {
+    background: #db8c2d;
+}
+.featured-proposals .supports .button-support {
+    background: #333;
+    color: #db8c2d;
+}
+.proposal .supports .button-support {
+    background: #db8c2d;
+}
+
+.feed-content {
+    background-color: #fff;
+    margin-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+header {
+    background-color: #fff;
+    box-shadow: 0px 0px 6px 0px #b3b3b3;
+    text-align: center;
 }
