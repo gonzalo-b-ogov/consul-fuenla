@@ -287,7 +287,8 @@ header {
     display: none;
     position: absolute;
     background-color: rgb(0, 143, 216);
-    min-width: 210px;
+    width: 215px;
+    min-width: 215px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
@@ -303,6 +304,8 @@ header {
   
   .dropdown-content a:hover {
     background-color: #004b84;
+    width: 215px;
+    padding: 18px 16px;
     
   }
   
@@ -319,7 +322,7 @@ header {
     border: none;
     outline: none;
     color: white;
-    padding: 18px 18px;
+    padding: 18px 16px;
     background-color: inherit;
     font-family: inherit;
     margin: 0;
