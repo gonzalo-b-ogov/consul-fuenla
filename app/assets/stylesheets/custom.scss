@@ -110,18 +110,32 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 }
 .container-image-header {
     margin-top: -20px;
-    max-width: 450px;
+    max-width: 550px;
 }
 h1 {
     font-weight: 500;
     font-family: 'muli-regular',sans-serif;
 }
 .header-title-container {
+    padding: 45px;
     color: #333;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    margin-top: 10px;
+}
+.header-home {
     font-variant: all-petite-caps;
-    
+    font-size: 50px;
+}
+.lead.home-hd {
+    font-family: 'muli-regular',sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #444;
+}
+.atribution {
+    color: #e3e3e3;
+    font-size: 10px;
+   
 }
 .home-page.public {
     background-color: #fff;
@@ -131,6 +145,8 @@ h1 {
 }
 .home-page h2.title {
     border-top: none;
+    padding-bottom: 20px;
+    padding-top: 1px;
 }
 /*FOOTER*/
 .footer {
@@ -212,11 +228,16 @@ footer .logo {
     margin-top: 5px;
     padding-left: 10px;
     padding-right: 10px;
+    display: flex;
 }
 header {
     background-color: #fff;
     box-shadow: 0px 0px 6px 0px #b3b3b3;
+    color: #fff;
     text-align: center;
+    background: url(https://www.ayto-fuenlabrada.es/img/comunes/menu/s1n.gif);
+    background-size: auto;
+    background-size: contain;
 }
 
 .in-favor-against .in-favor .voted {
@@ -226,4 +247,38 @@ header {
 .in-favor-against .in-favor button:not([disabled]):hover, .in-favor-against .in-favor button:not([disabled]):active {
     background: #9FCF71;
     border: 2px solid #004b84;
+}
+
+/*cajas proposals home*/
+.feed-content .proposal {
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0.75rem 0;
+    background-color: #e1e9f0;
+    max-width: 20%;
+    margin-left: 5px;
+    padding: 20px;
+    float: left;
+    margin-right: 1px;
+    border-color: #dc5b00;
+    border-style: solid;
+    border-width: 0px 0px 10px 0px;
+}
+
+.feed-content .proposal:hover {
+    border-color: #9fcf71;
+    border-style: solid;
+    border-width: 0px 0px 12px 0px;
+}
+.sdg-goals-index .section-header {
+    background-color: #597995;
+    box-shadow: none;
+}
+
+.button.expanded.large {
+    background-color: #333;
+    border-color: #333;
+    font-size: 16px;
+    border-radius: 0;
+    line-height: 1.5;
 }
