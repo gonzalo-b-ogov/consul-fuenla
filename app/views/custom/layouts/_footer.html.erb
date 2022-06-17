@@ -1,67 +1,109 @@
-<footer>
-  <div class="row">
-    <div class="small-12 large-4 column">
-    <div class="container-logo-footer">
-    <%= image_tag(image_path_for("logo_header.png"), alt: setting["org_name"]) %>
-       </div>
-       <div class="text-footer">
-       <h1 class="logo">
-       <%= link_to t("layouts.header.open_gov"), root_path %>
-     </h1>
 
 
-      
-       </div>
-    </div>
-       
-  <div class="footer-sections small-12 large-8 column">
-      <div class="small-12 medium-4 column">
-      <div class="description-footer">
-      <%= link_to t("layouts.footer.participation_title"), root_path, class: "title" %>
-      <p><%= t("layouts.footer.participation_text") %></p>
-      </div>
-      </div>
-      
-    </div>
+
+
+<div class ="main-footer">
+<div class="footer-sections small-10 large-4 column">
+<a class="button expanded large" href="https://gobiernoabierto.ayto-fuenlabrada.es/">Gobierno Abierto</a>
+<a class="button expanded large" href="https://transparencia.ayto-fuenlabrada.es/">Transparencia</a>
+    <a class="button expanded large active" href="/home"> Participación</a>
     
-    <%= render Layout::SocialComponent.new %>
     
-  </div>
-</footer>
 </div>
-  
- 
-  <div class="footer secundario">
-  <footer>
-  <div class="subfooter row secundary">
-  
-  
-  
-      <div class="col-md-2 secundary">
-      <div class="logo logosecundario">
-        <a role="button" aria-pressed="true" target="_blank" href="https://www.ogovsystem.com/" class="titleFooter">
-            <img class="logofooter2" src="https://transparencia.archena.es/img/logo_ogovsystem_blanco-100-es.png" alt="logo-Ogovsystem">
-        </a>
-    </div>
-    </div>
+
+<div class="footer-sections small-10 large-4 column">
+<div class="container-logo-footer">
+        <%= image_tag(image_path_for("logo_header.png"), alt: setting["org_name"]) %>
+          </div>
+          
+   
     
-    <div class="col-lg-5 secundary">
-        <%= t("layouts.footer.copyright", year: Time.current.year) %>&nbsp;|
-        <ul class="no-bullet inline-block">
-          <li class="inline-block"><%= link_to t("layouts.footer.privacy"), page_path("privacy") %>&nbsp;|</li>
-          <li class="inline-block"><%= link_to t("layouts.footer.conditions"), page_path("conditions") %>&nbsp;|</li>
-          <li class="inline-block"><%= link_to t("layouts.footer.accessibility"), page_path("accessibility") %></li>
-        </ul>
-        <p class="info">
-        <%= sanitize(t("layouts.footer.description",
-          open_source: link_to(t("layouts.footer.open_source"), t("layouts.footer.open_source_url"), target: "blank", rel: "nofollow"),
-          consul:  link_to(t("layouts.footer.consul"), t("layouts.footer.consul_url"), target: "blank", rel: "nofollow"))) %>
-      </p>
+</div>
+
+<div class="footer-sections small-10 large-4 column">
+    <a class="button expanded large" href="https://gobiernoabierto.ayto-fuenlabrada.es/o"> Obras</a>
+    <a class="button expanded large" href="https://presupuestos.ayto-fuenlabrada.es/"> Presupuestos</a>
+    <a class="button expanded large" href="http://datosabiertos.ayto-fuenlabrada.es/"> Datos Abiertos</a>
+    
+</div>
+
+
+
+
+
+</div>
+</div>
+    </div>
+  </div>
+  
+  <div class="footer pre">
+      <footer>
+      <div class="row">
+        <div class="small-12 large-4 column">
+        <!--<div class="text-footer">
+          <h1 class="logo">
+          <%= link_to t("layouts.header.open_gov"), root_path %>
+        </h1>
+        </div>-->
+        
+        <div class="description-footer">
+        <%= link_to t("layouts.footer.participation_title"), root_path, class: "title" %>
+        <p><%= t("layouts.footer.participation_text") %></p>
+        </div>
+
+          
+          
+        </div>
+          
+      <div class="footer-sections small-12 large-8 column">
+          <div class="small-12 medium-4 column">
+          
+          </div>
+          
+        </div>
+        
+        <%= render Layout::SocialComponent.new %>
+        
       </div>
-    </div>
-    </div>
+    </footer>
+
+
+
+
+
+
+</div> 
+
+  <div class="footer secundario">
+    <footer>
+      <div class="subfooter row secundary">
+      
+      
+      
+          <div class="col-md-2 secundary">
+          <div class="logo logosecundario">
+            <a role="button" aria-pressed="true" target="_blank" href="https://www.ogovsystem.com/" class="titleFooter">
+                <img class="logofooter2" src="https://transparencia.archena.es/img/logo_ogovsystem_blanco-100-es.png" alt="logo-Ogovsystem">
+            </a>
+        </div>
+        </div>
+        
+        <div class="col-lg-5 secundary">
+            <%= t("layouts.footer.copyright", year: Time.current.year) %>&nbsp;|
+            <ul class="no-bullet inline-block">
+              <li class="inline-block"><%= link_to t("layouts.footer.privacy"), page_path("privacy") %>&nbsp;|</li>
+              <li class="inline-block"><%= link_to t("layouts.footer.conditions"), page_path("conditions") %>&nbsp;|</li>
+              <li class="inline-block"><%= link_to t("layouts.footer.accessibility"), page_path("accessibility") %></li>
+            </ul>
+            <p class="info">
+            <%= sanitize(t("layouts.footer.description",
+              open_source: link_to(t("layouts.footer.open_source"), t("layouts.footer.open_source_url"), target: "blank", rel: "nofollow"),
+              consul:  link_to(t("layouts.footer.consul"), t("layouts.footer.consul_url"), target: "blank", rel: "nofollow"))) %>
+          </p>
+          </div>
+        </div>
+     </div>
 
 
    
     </footer>
-  

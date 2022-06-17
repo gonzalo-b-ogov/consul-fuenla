@@ -81,18 +81,18 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
     color: #FFF;
 }
 /*HEADER HOME*/
-.home-page .background-header {
+/*.home-page .background-header {
     background-image: url("https://www.ogovsystem.com/wp-content/uploads/2022/06/banner_cabeceraP-1-1.png");
     background-repeat: no-repeat;
     background-size: contain;
     clip-path: none;
     /*clip-path: ellipse(100% 80% at 50% 0%);*/
-    background-color: rgba(130, 147, 174, 0.3);
+    /*background-color: rgba(130, 147, 174, 0.3);
     height: 240px; 
     margin-top: -1.5rem; 
     margin-bottom: 50px;
    
-}
+}*/
 .jumbo {
     /* background-color: #e9ecef;*/
     padding: 1rem 0;
@@ -151,11 +151,15 @@ h1 {
 /*FOOTER*/
 .footer {
     background: #004b84;
+    padding-bottom: 0px;
+    margin-bottom: -55px;
+    height: 250px;
 }
 .container-logo-footer {
     max-width: 150px;
     margin-left: 33%;
-    padding-bottom: 20px;
+    padding-top: 10%;
+   
 }
 .text-footer {
     text-align: center;
@@ -173,12 +177,26 @@ h1 {
     padding: 5px;
     border-radius: 10%;
 }
+.link-footer {
+    color: #fff !important;
+    background-color: #597995;
+    margin-top: 10px;
+}
+.button.expanded.large.active {
+    background-color: #597995;
+    border-color: #597995;
+}
 .footer.secundario {
     background: #333;
     color: #fff;
     margin-top: 0px;
     height: 100px;
     padding-top: 10px;
+}
+.footer.pre {
+    background: #000;
+    height: 250px;
+    padding-top: 50px;
 }
 .subfooter.row.secundary {
     border-top: none;
@@ -197,13 +215,21 @@ h1 {
 }
 .col-lg-5.secundary {
     padding-left: 20%;
+    color: #666;
 }
 footer .logo {
     color: #fff;
 }
 .description-footer {
     color: #fff;
+    text-align: center;
 }
+/*tools*/
+
+
+
+
+
 .home-page .card {
     border: 1;
     box-shadow: 0px 0px 6px 0px rgba(179, 179, 179, 9);
