@@ -224,11 +224,19 @@ footer .logo {
     color: #fff;
     text-align: center;
 }
-/*tools*/
+.subnavigation ul li {
+    margin-right: 0.2rem;
+}
 
+.subnavigation a.is-active {
+    border-bottom: 0px solid;
+ 
+}
 
-
-
+.button.expanded.large:hover {
+    background-color: #597995;
+    border-color: #597995;
+}
 
 .home-page .card {
     border: 1;
@@ -353,3 +361,7 @@ header {
     font-family: inherit;
     margin: 0;
   }
+/*idiomas*/
+  .locale-form {
+    visibility: hidden;
+}
