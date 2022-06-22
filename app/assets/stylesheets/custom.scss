@@ -147,6 +147,7 @@ h1 {
     border-top: none;
     padding-bottom: 20px;
     padding-top: 1px;
+    padding-left: 20px !important;
 }
 /*FOOTER*/
 .footer {
@@ -160,6 +161,11 @@ h1 {
     margin-left: 33%;
     padding-top: 10%;
    
+}
+.sdg-goals-index h2.title, .sdg-goals-index h3.title {
+    border-top: none;
+    padding-left: 20px;
+
 }
 .text-footer {
     text-align: center;
@@ -268,12 +274,13 @@ header {
     background-color: #fff;
     box-shadow: 0px 0px 6px 0px #b3b3b3;
     color: #fff;
-    text-align: center;
     background: url(https://www.ayto-fuenlabrada.es/img/comunes/menu/s1n.gif);
     background-size: auto;
     background-size: contain;
 }
-
+header {
+    text-align: left;
+}
 .in-favor-against .in-favor .voted {
     background: #004b84;
     border: 2px solid #9FCF71;
