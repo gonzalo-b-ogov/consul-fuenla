@@ -1,0 +1,6 @@
+<%= t("polls.index.section_footer.description") %>
+<%= t("polls.index.section_footer.primer_item_lista") %>
+<%= t("polls.index.section_footer.segundo_item_lista") %>
+<%= t("polls.index.section_footer.tercer_item_lista") %>
+<%= t("polls.index.section_footer.cuarto_item_lista") %>
+<%= t("polls.index.section_footer.quinto_item_lista") %>

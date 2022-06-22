@@ -1,0 +1,2 @@
+<%= t("legislation.processes.index.section_footer.description_primer_item_list") %>
+<%= t("legislation.processes.index.section_footer.description_segundo_item_list") %>

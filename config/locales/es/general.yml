@@ -608,7 +608,12 @@ es:
         help: Ayuda sobre las votaciones
       section_footer:
         title: Ayuda sobre las votaciones
-        description: Las votaciones ciudadanas son un mecanismo de participación por el que la ciudadanía con derecho a voto puede tomar decisiones de forma directa.
+        description: La sección de Votaciones se activa cuando el Ayuntamiento de Fuenlabrada propone un tema para que la gente decida sobre él.
+        primer_item_lista: Para participar en las votaciones tienes que registrarte en Participa Funelabrada y verificar tu cuenta.
+        segundo_item_lista: La sección 2.
+        tercer_item_lista: La sección 3.
+        cuarto_item_lista: La sección 4.
+        quinto_item_lista: La sección 5.
       no_polls: "No hay votaciones abiertas."
     show:
       already_voted_in_booth: "Ya has participado en esta votación en urnas presenciales, no puedes volver a participar."
