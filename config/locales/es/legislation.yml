@@ -62,7 +62,7 @@ es:
         no_open_processes: No hay procesos activos
         no_past_processes: No hay procesos terminados
         section_header:
-          icon_alt: Icono de legislación colaborativa
+          icon_alt: Icono de Consultas públicas
           title:  Consultas públicas
           help: Ayuda sobre Consultas públicas
         section_footer:
