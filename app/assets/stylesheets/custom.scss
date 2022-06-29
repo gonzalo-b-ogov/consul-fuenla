@@ -300,6 +300,11 @@ header {
     line-height: 0.8rem;
 
 }
+@media print, screen and (min-width: 64em){
+.figure-card figcaption h3 {
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+}}
 /*cajas proposals home*/
 .feed-content .proposal {
     margin-bottom: 0;
@@ -394,6 +399,9 @@ header {
 .header-home {
     font-size: 40px;
 }
+.figure-card figcaption h3 {
+    font-size: 0.8rem;
+}
 }
 
 @media (max-width: 375px) {
@@ -407,5 +415,8 @@ header {
     }
     .header-home {
         font-size: 40px;
+    }
+    .figure-card figcaption h3 {
+        font-size: 0.8rem;
     }
 }
