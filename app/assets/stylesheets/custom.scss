@@ -150,10 +150,10 @@ h1 {
     padding-left: 20px !important;
 }
 .legislation-process.card {
-    width: 100% !important;
+    width: 33.33% !important;
     box-shadow: none !important;
     background-color: #f3f3f3 !important;
-    margin-left: 5px;
+    margin-right: 5px;
 
 }
 /*FOOTER*/
@@ -296,7 +296,10 @@ header {
     background: #9FCF71;
     border: 2px solid #004b84;
 }
+.figure-card figcaption {
+    line-height: 0.8rem;
 
+}
 /*cajas proposals home*/
 .feed-content .proposal {
     margin-bottom: 0;
@@ -383,11 +386,26 @@ header {
 @media screen and (max-width: 390px){
 .main-footer {
     display: flex;
-}}
+}
+.legislation-process.card {
+    width: 100% !important;
+
+}
+.header-home {
+    font-size: 40px;
+}
+}
 
 @media (max-width: 375px) {
     .main-footer {
         display: flex;
     }
 
+    .legislation-process.card {
+        width: 100% !important;
+    
+    }
+    .header-home {
+        font-size: 40px;
+    }
 }
