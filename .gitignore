@@ -38,3 +38,4 @@ tmp/
 /coverage/
 empezar_bueno.sh
 app/models/concerns/verification copy.rb
+app/models/concerns/verification copy 2.rb

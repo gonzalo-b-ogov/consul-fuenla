@@ -22,16 +22,10 @@ module Verification
 
   def verification_sms_sent?
     return true
-   # return true if skip_verification?
-
-   #  unconfirmed_phone.present? && sms_confirmation_code.present?
   end
 
   def verification_letter_sent?
     return true
-   # return true if skip_verification?
-
-   # letter_requested_at.present? && letter_verification_code.present?
   end
 
   def residence_verified?
@@ -41,18 +35,15 @@ module Verification
   end
 
   def sms_verified?
-    return true
-   # return true if skip_verification?
-
-   # confirmed_phone.present?
+     return true
   end
 
   def level_two_verified?
-    return residence_verified?
+     return residence_verified?
   end
 
   def level_three_verified?
-    return residence_verified?
+     return residence_verified?
   end
 
   def level_two_or_three_verified?
