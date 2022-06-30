@@ -52,9 +52,7 @@ module Verification
   end
 
   def level_three_verified?
-    return true if skip_verification?
-
-    verified_at.present?
+    return residence_verified?
   end
 
   def level_two_or_three_verified?
