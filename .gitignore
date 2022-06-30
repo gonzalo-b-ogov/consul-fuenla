@@ -37,3 +37,4 @@ tmp/
 /spec/examples.txt
 /coverage/
 empezar_bueno.sh
+app/models/concerns/verification copy.rb

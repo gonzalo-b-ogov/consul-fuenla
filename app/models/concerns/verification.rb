@@ -48,9 +48,7 @@ module Verification
   end
 
   def level_two_verified?
-    return true if skip_verification?
-
-    level_two_verified_at.present? || (residence_verified? && sms_verified?)
+    return residence_verified?
   end
 
   def level_three_verified?
